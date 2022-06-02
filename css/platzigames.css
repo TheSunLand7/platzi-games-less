@@ -1,0 +1,150 @@
+/* ---- Mixins ---- */
+body {
+  background: #333;
+}
+.intro {
+  background: #8841da;
+}
+.articulo--principal {
+  color: #fff;
+}
+.articulo--principal h2 {
+  color: #8841da;
+}
+.caja .caja__contenido {
+  background: #8841da;
+  color: #fff;
+}
+.caja__contenido .caja__categoria,
+.caja .caja__contenido a {
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #333;
+}
+body p {
+  font-size: 18px;
+  line-height: 28px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.intro {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  inline-size: 1340px;
+  block-size: 650px;
+  box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
+}
+.intro__imagen {
+  position: absolute;
+  inline-size: 1320px;
+}
+.intro__imagen img {
+  inline-size: 100%;
+  block-size: 624px;
+  object-fit: cover;
+}
+.intro__contenido {
+  position: absolute;
+  margin: 0 auto;
+  inline-size: 50%;
+  top: 156px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+}
+.intro__categoria {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+}
+.intro__titulo {
+  font-size: 50px;
+  line-height: 60px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.intro__autor {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  inline-size: 150px;
+  display: flex;
+  color: #fff;
+}
+.intro__autor img {
+  inline-size: 60px;
+  block-size: 50px;
+  padding-right: 10px;
+  border-radius: 50%;
+}
+.intro__autor .text {
+  display: inline-block;
+}
+.intro__autor .text span {
+  display: block;
+}
+.intro__autor-titulo {
+  color: rgba(255, 255, 255, 0.5);
+}
+.articulo--principal {
+  max-inline-size: 660px;
+  margin: 0 auto;
+}
+.articulo--principal__intro {
+  font-size: 25px;
+  line-height: 35px;
+}
+.articulo--principal h2 {
+  margin: 40px 0;
+  text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+}
+.articulo--principal h3 {
+  color: #8841da;
+}
+.contenedor--cajas {
+  margin: 0 auto 60px;
+  inline-size: 1400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.caja {
+  max-inline-size: 430px;
+  box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
+}
+.caja__contenido {
+  padding: 25px;
+  background: #fff;
+}
+.caja span {
+  color: #8841da;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.caja a {
+  text-decoration: none;
+  color: #012179;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}

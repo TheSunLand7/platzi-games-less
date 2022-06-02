@@ -1,0 +1,24 @@
+.contenedor--cajas {
+	margin: 0 auto 60px;
+	inline-size: 1400px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.caja {
+	max-inline-size: 430px;
+	.sombra-caja(@color-primario);
+	&__contenido {
+		padding: 25px;
+		background: @color-claro;
+	}
+	& span {
+		color: @color-secundario;
+		.oswald();
+	}
+
+	& a {
+		text-decoration: none;
+		color: @color-variacion;
+		.oswald();
+	}
+}

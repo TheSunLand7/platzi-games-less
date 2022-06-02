@@ -1,0 +1,57 @@
+.intro {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px;
+  inline-size: 1340px;
+  block-size: 650px;
+}
+.intro__imagen {
+  position: absolute;
+  inline-size: 1320px;
+}
+.intro__imagen img {
+  inline-size: 100%;
+  block-size: 624px;
+  object-fit: cover;
+}
+.intro__contenido {
+  position: absolute;
+  margin: 0 auto;
+  inline-size: 50%;
+  top: 156px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+}
+.intro__categoria {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.intro__titulo {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.intro__autor {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  inline-size: 150px;
+  display: flex;
+  color: #fff;
+}
+.intro__autor img {
+  inline-size: 60px;
+  block-size: 50px;
+  padding-right: 10px;
+  border-radius: 50%;
+}
+.intro__autor .text {
+  display: inline-block;
+}
+.intro__autor .text span {
+  display: block;
+}

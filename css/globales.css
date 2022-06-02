@@ -1,0 +1,41 @@
+/* ---- Mixins ---- */
+body {
+  background: #333;
+}
+.intro {
+  background: #8841da;
+}
+.articulo--principal {
+  color: #fff;
+}
+.articulo--principal h2 {
+  color: #8841da;
+}
+.caja .caja__contenido {
+  background: #8841da;
+  color: #fff;
+}
+.caja__contenido .caja__categoria,
+.caja .caja__contenido a {
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #333;
+}
+body p {
+  font-size: 18px;
+  line-height: 28px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}

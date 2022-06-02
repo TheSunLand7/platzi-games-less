@@ -1,0 +1,64 @@
+.intro {
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+	inline-size: 1340px;
+	block-size: 650px;
+	.sombra-caja(@color-primario);
+	&__imagen {
+		position: absolute;
+		inline-size: 1320px;
+		& img {
+			inline-size: 100%;
+			block-size: 624px;
+			object-fit: cover;
+		}
+	}
+
+	&__contenido {
+		position: absolute;
+		margin: 0 auto;
+		inline-size: 50%;
+		top: 156px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		color: @color-claro;
+	}
+
+	&__categoria {
+		.oswald();
+		color: fade(@color-claro, 50%);
+	}
+
+	&__titulo {
+		.fuente(50px);
+		.oswald();
+	}
+
+	&__autor {
+		position: absolute;
+		top: 400px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		inline-size: 150px;
+		display: flex;
+		color: @color-claro;
+		& img {
+			inline-size: 60px;
+			block-size: 50px;
+			padding-right: 10px;
+			border-radius: 50%;
+		}
+		& .text {
+			display: inline-block;
+			& span {
+				display: block;
+			}
+		}
+		&-titulo {
+			color: fade(@color-claro, 50%);
+		}
+	}
+}
